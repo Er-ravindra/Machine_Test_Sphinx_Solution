@@ -1,0 +1,787 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0421E1265D1E428C6B727963 /* Pods_Machine_Test_Sphinx_Solution_Machine_Test_Sphinx_SolutionUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BA31E6F204E27C7AD993F09F /* Pods_Machine_Test_Sphinx_Solution_Machine_Test_Sphinx_SolutionUITests.framework */; };
+		0462FDB029B33D3600D485C0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0462FDAF29B33D3600D485C0 /* AppDelegate.swift */; };
+		0462FDB229B33D3600D485C0 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0462FDB129B33D3600D485C0 /* SceneDelegate.swift */; };
+		0462FDB429B33D3600D485C0 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0462FDB329B33D3600D485C0 /* HomeViewController.swift */; };
+		0462FDB729B33D3600D485C0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0462FDB529B33D3600D485C0 /* Main.storyboard */; };
+		0462FDB929B33D3700D485C0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0462FDB829B33D3700D485C0 /* Assets.xcassets */; };
+		0462FDBC29B33D3700D485C0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0462FDBA29B33D3700D485C0 /* LaunchScreen.storyboard */; };
+		0462FDC729B33D3800D485C0 /* Machine_Test_Sphinx_SolutionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0462FDC629B33D3800D485C0 /* Machine_Test_Sphinx_SolutionTests.swift */; };
+		0462FDD129B33D3800D485C0 /* Machine_Test_Sphinx_SolutionUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0462FDD029B33D3800D485C0 /* Machine_Test_Sphinx_SolutionUITests.swift */; };
+		0462FDD329B33D3800D485C0 /* Machine_Test_Sphinx_SolutionUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0462FDD229B33D3800D485C0 /* Machine_Test_Sphinx_SolutionUITestsLaunchTests.swift */; };
+		0462FDE029B3413F00D485C0 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0462FDDF29B3413F00D485C0 /* ProfileViewController.swift */; };
+		0462FDE229B3415900D485C0 /* SettingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0462FDE129B3415900D485C0 /* SettingViewController.swift */; };
+		0462FDE429B341A900D485C0 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0462FDE329B341A900D485C0 /* User.swift */; };
+		0462FDE729B341C000D485C0 /* UserCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0462FDE529B341C000D485C0 /* UserCollectionViewCell.swift */; };
+		0462FDE829B341C000D485C0 /* UserCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0462FDE629B341C000D485C0 /* UserCollectionViewCell.xib */; };
+		0462FDEB29B345F700D485C0 /* PopulationTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0462FDE929B345F700D485C0 /* PopulationTableViewCell.swift */; };
+		0462FDEC29B345F700D485C0 /* PopulationTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0462FDEA29B345F700D485C0 /* PopulationTableViewCell.xib */; };
+		0462FDEE29B3468E00D485C0 /* Population.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0462FDED29B3468E00D485C0 /* Population.swift */; };
+		4C6ABFA68ACA8EAFD4D688A8 /* Pods_Machine_Test_Sphinx_Solution.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 81D287CE61F3888A525EEEA8 /* Pods_Machine_Test_Sphinx_Solution.framework */; };
+		73087727F7BAA9468C2A9970 /* Pods_Machine_Test_Sphinx_SolutionTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 184718F202B88A234E146CE9 /* Pods_Machine_Test_Sphinx_SolutionTests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0462FDC329B33D3800D485C0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0462FDA429B33D3600D485C0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0462FDAB29B33D3600D485C0;
+			remoteInfo = Machine_Test_Sphinx_Solution;
+		};
+		0462FDCD29B33D3800D485C0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0462FDA429B33D3600D485C0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0462FDAB29B33D3600D485C0;
+			remoteInfo = Machine_Test_Sphinx_Solution;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		01E53FBA18953C851AC0FB70 /* Pods-Machine_Test_Sphinx_SolutionTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Machine_Test_Sphinx_SolutionTests.release.xcconfig"; path = "Target Support Files/Pods-Machine_Test_Sphinx_SolutionTests/Pods-Machine_Test_Sphinx_SolutionTests.release.xcconfig"; sourceTree = "<group>"; };
+		0462FDAC29B33D3600D485C0 /* Machine_Test_Sphinx_Solution.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Machine_Test_Sphinx_Solution.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0462FDAF29B33D3600D485C0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		0462FDB129B33D3600D485C0 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		0462FDB329B33D3600D485C0 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		0462FDB629B33D3600D485C0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		0462FDB829B33D3700D485C0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0462FDBB29B33D3700D485C0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		0462FDBD29B33D3700D485C0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0462FDC229B33D3800D485C0 /* Machine_Test_Sphinx_SolutionTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Machine_Test_Sphinx_SolutionTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0462FDC629B33D3800D485C0 /* Machine_Test_Sphinx_SolutionTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Machine_Test_Sphinx_SolutionTests.swift; sourceTree = "<group>"; };
+		0462FDCC29B33D3800D485C0 /* Machine_Test_Sphinx_SolutionUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Machine_Test_Sphinx_SolutionUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0462FDD029B33D3800D485C0 /* Machine_Test_Sphinx_SolutionUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Machine_Test_Sphinx_SolutionUITests.swift; sourceTree = "<group>"; };
+		0462FDD229B33D3800D485C0 /* Machine_Test_Sphinx_SolutionUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Machine_Test_Sphinx_SolutionUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		0462FDDF29B3413F00D485C0 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		0462FDE129B3415900D485C0 /* SettingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingViewController.swift; sourceTree = "<group>"; };
+		0462FDE329B341A900D485C0 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		0462FDE529B341C000D485C0 /* UserCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserCollectionViewCell.swift; sourceTree = "<group>"; };
+		0462FDE629B341C000D485C0 /* UserCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = UserCollectionViewCell.xib; sourceTree = "<group>"; };
+		0462FDE929B345F700D485C0 /* PopulationTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopulationTableViewCell.swift; sourceTree = "<group>"; };
+		0462FDEA29B345F700D485C0 /* PopulationTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PopulationTableViewCell.xib; sourceTree = "<group>"; };
+		0462FDED29B3468E00D485C0 /* Population.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Population.swift; sourceTree = "<group>"; };
+		10A6547B2921DEF974FB9127 /* Pods-Machine_Test_Sphinx_Solution.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Machine_Test_Sphinx_Solution.debug.xcconfig"; path = "Target Support Files/Pods-Machine_Test_Sphinx_Solution/Pods-Machine_Test_Sphinx_Solution.debug.xcconfig"; sourceTree = "<group>"; };
+		184718F202B88A234E146CE9 /* Pods_Machine_Test_Sphinx_SolutionTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Machine_Test_Sphinx_SolutionTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6038C6047B8FB7AD1DEFA299 /* Pods-Machine_Test_Sphinx_Solution-Machine_Test_Sphinx_SolutionUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Machine_Test_Sphinx_Solution-Machine_Test_Sphinx_SolutionUITests.release.xcconfig"; path = "Target Support Files/Pods-Machine_Test_Sphinx_Solution-Machine_Test_Sphinx_SolutionUITests/Pods-Machine_Test_Sphinx_Solution-Machine_Test_Sphinx_SolutionUITests.release.xcconfig"; sourceTree = "<group>"; };
+		81D287CE61F3888A525EEEA8 /* Pods_Machine_Test_Sphinx_Solution.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Machine_Test_Sphinx_Solution.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B2201AC1AB11DFCB73476CF6 /* Pods-Machine_Test_Sphinx_Solution.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Machine_Test_Sphinx_Solution.release.xcconfig"; path = "Target Support Files/Pods-Machine_Test_Sphinx_Solution/Pods-Machine_Test_Sphinx_Solution.release.xcconfig"; sourceTree = "<group>"; };
+		B4A7E3E0B888A3ED087126A8 /* Pods-Machine_Test_Sphinx_SolutionTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Machine_Test_Sphinx_SolutionTests.debug.xcconfig"; path = "Target Support Files/Pods-Machine_Test_Sphinx_SolutionTests/Pods-Machine_Test_Sphinx_SolutionTests.debug.xcconfig"; sourceTree = "<group>"; };
+		BA31E6F204E27C7AD993F09F /* Pods_Machine_Test_Sphinx_Solution_Machine_Test_Sphinx_SolutionUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Machine_Test_Sphinx_Solution_Machine_Test_Sphinx_SolutionUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F15FB9522EE6FB2B5ACC17C1 /* Pods-Machine_Test_Sphinx_Solution-Machine_Test_Sphinx_SolutionUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Machine_Test_Sphinx_Solution-Machine_Test_Sphinx_SolutionUITests.debug.xcconfig"; path = "Target Support Files/Pods-Machine_Test_Sphinx_Solution-Machine_Test_Sphinx_SolutionUITests/Pods-Machine_Test_Sphinx_Solution-Machine_Test_Sphinx_SolutionUITests.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0462FDA929B33D3600D485C0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4C6ABFA68ACA8EAFD4D688A8 /* Pods_Machine_Test_Sphinx_Solution.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0462FDBF29B33D3800D485C0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				73087727F7BAA9468C2A9970 /* Pods_Machine_Test_Sphinx_SolutionTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0462FDC929B33D3800D485C0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0421E1265D1E428C6B727963 /* Pods_Machine_Test_Sphinx_Solution_Machine_Test_Sphinx_SolutionUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0462FDA329B33D3600D485C0 = {
+			isa = PBXGroup;
+			children = (
+				0462FDAE29B33D3600D485C0 /* Machine_Test_Sphinx_Solution */,
+				0462FDC529B33D3800D485C0 /* Machine_Test_Sphinx_SolutionTests */,
+				0462FDCF29B33D3800D485C0 /* Machine_Test_Sphinx_SolutionUITests */,
+				0462FDAD29B33D3600D485C0 /* Products */,
+				52419E84B3073DCE9F5E03B9 /* Pods */,
+				EEF33BEED006F21BA129AE35 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		0462FDAD29B33D3600D485C0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0462FDAC29B33D3600D485C0 /* Machine_Test_Sphinx_Solution.app */,
+				0462FDC229B33D3800D485C0 /* Machine_Test_Sphinx_SolutionTests.xctest */,
+				0462FDCC29B33D3800D485C0 /* Machine_Test_Sphinx_SolutionUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0462FDAE29B33D3600D485C0 /* Machine_Test_Sphinx_Solution */ = {
+			isa = PBXGroup;
+			children = (
+				0462FDAF29B33D3600D485C0 /* AppDelegate.swift */,
+				0462FDB129B33D3600D485C0 /* SceneDelegate.swift */,
+				0462FDB329B33D3600D485C0 /* HomeViewController.swift */,
+				0462FDDF29B3413F00D485C0 /* ProfileViewController.swift */,
+				0462FDE129B3415900D485C0 /* SettingViewController.swift */,
+				0462FDB529B33D3600D485C0 /* Main.storyboard */,
+				0462FDB829B33D3700D485C0 /* Assets.xcassets */,
+				0462FDBA29B33D3700D485C0 /* LaunchScreen.storyboard */,
+				0462FDBD29B33D3700D485C0 /* Info.plist */,
+				0462FDE329B341A900D485C0 /* User.swift */,
+				0462FDE529B341C000D485C0 /* UserCollectionViewCell.swift */,
+				0462FDE629B341C000D485C0 /* UserCollectionViewCell.xib */,
+				0462FDE929B345F700D485C0 /* PopulationTableViewCell.swift */,
+				0462FDEA29B345F700D485C0 /* PopulationTableViewCell.xib */,
+				0462FDED29B3468E00D485C0 /* Population.swift */,
+			);
+			path = Machine_Test_Sphinx_Solution;
+			sourceTree = "<group>";
+		};
+		0462FDC529B33D3800D485C0 /* Machine_Test_Sphinx_SolutionTests */ = {
+			isa = PBXGroup;
+			children = (
+				0462FDC629B33D3800D485C0 /* Machine_Test_Sphinx_SolutionTests.swift */,
+			);
+			path = Machine_Test_Sphinx_SolutionTests;
+			sourceTree = "<group>";
+		};
+		0462FDCF29B33D3800D485C0 /* Machine_Test_Sphinx_SolutionUITests */ = {
+			isa = PBXGroup;
+			children = (
+				0462FDD029B33D3800D485C0 /* Machine_Test_Sphinx_SolutionUITests.swift */,
+				0462FDD229B33D3800D485C0 /* Machine_Test_Sphinx_SolutionUITestsLaunchTests.swift */,
+			);
+			path = Machine_Test_Sphinx_SolutionUITests;
+			sourceTree = "<group>";
+		};
+		52419E84B3073DCE9F5E03B9 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				10A6547B2921DEF974FB9127 /* Pods-Machine_Test_Sphinx_Solution.debug.xcconfig */,
+				B2201AC1AB11DFCB73476CF6 /* Pods-Machine_Test_Sphinx_Solution.release.xcconfig */,
+				F15FB9522EE6FB2B5ACC17C1 /* Pods-Machine_Test_Sphinx_Solution-Machine_Test_Sphinx_SolutionUITests.debug.xcconfig */,
+				6038C6047B8FB7AD1DEFA299 /* Pods-Machine_Test_Sphinx_Solution-Machine_Test_Sphinx_SolutionUITests.release.xcconfig */,
+				B4A7E3E0B888A3ED087126A8 /* Pods-Machine_Test_Sphinx_SolutionTests.debug.xcconfig */,
+				01E53FBA18953C851AC0FB70 /* Pods-Machine_Test_Sphinx_SolutionTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		EEF33BEED006F21BA129AE35 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				81D287CE61F3888A525EEEA8 /* Pods_Machine_Test_Sphinx_Solution.framework */,
+				BA31E6F204E27C7AD993F09F /* Pods_Machine_Test_Sphinx_Solution_Machine_Test_Sphinx_SolutionUITests.framework */,
+				184718F202B88A234E146CE9 /* Pods_Machine_Test_Sphinx_SolutionTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0462FDAB29B33D3600D485C0 /* Machine_Test_Sphinx_Solution */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0462FDD629B33D3800D485C0 /* Build configuration list for PBXNativeTarget "Machine_Test_Sphinx_Solution" */;
+			buildPhases = (
+				6C5EF0CDBA2E1FE59221C8E2 /* [CP] Check Pods Manifest.lock */,
+				0462FDA829B33D3600D485C0 /* Sources */,
+				0462FDA929B33D3600D485C0 /* Frameworks */,
+				0462FDAA29B33D3600D485C0 /* Resources */,
+				5BC5A17EF286336E66042F29 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Machine_Test_Sphinx_Solution;
+			productName = Machine_Test_Sphinx_Solution;
+			productReference = 0462FDAC29B33D3600D485C0 /* Machine_Test_Sphinx_Solution.app */;
+			productType = "com.apple.product-type.application";
+		};
+		0462FDC129B33D3800D485C0 /* Machine_Test_Sphinx_SolutionTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0462FDD929B33D3800D485C0 /* Build configuration list for PBXNativeTarget "Machine_Test_Sphinx_SolutionTests" */;
+			buildPhases = (
+				AC555BD7E04A419D4C05692C /* [CP] Check Pods Manifest.lock */,
+				0462FDBE29B33D3800D485C0 /* Sources */,
+				0462FDBF29B33D3800D485C0 /* Frameworks */,
+				0462FDC029B33D3800D485C0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0462FDC429B33D3800D485C0 /* PBXTargetDependency */,
+			);
+			name = Machine_Test_Sphinx_SolutionTests;
+			productName = Machine_Test_Sphinx_SolutionTests;
+			productReference = 0462FDC229B33D3800D485C0 /* Machine_Test_Sphinx_SolutionTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		0462FDCB29B33D3800D485C0 /* Machine_Test_Sphinx_SolutionUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0462FDDC29B33D3800D485C0 /* Build configuration list for PBXNativeTarget "Machine_Test_Sphinx_SolutionUITests" */;
+			buildPhases = (
+				E2AE4622998F3D54C8D080DC /* [CP] Check Pods Manifest.lock */,
+				0462FDC829B33D3800D485C0 /* Sources */,
+				0462FDC929B33D3800D485C0 /* Frameworks */,
+				0462FDCA29B33D3800D485C0 /* Resources */,
+				8BF2C0C2FA147D30C8AEB2FE /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0462FDCE29B33D3800D485C0 /* PBXTargetDependency */,
+			);
+			name = Machine_Test_Sphinx_SolutionUITests;
+			productName = Machine_Test_Sphinx_SolutionUITests;
+			productReference = 0462FDCC29B33D3800D485C0 /* Machine_Test_Sphinx_SolutionUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0462FDA429B33D3600D485C0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					0462FDAB29B33D3600D485C0 = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+					0462FDC129B33D3800D485C0 = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = 0462FDAB29B33D3600D485C0;
+					};
+					0462FDCB29B33D3800D485C0 = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = 0462FDAB29B33D3600D485C0;
+					};
+				};
+			};
+			buildConfigurationList = 0462FDA729B33D3600D485C0 /* Build configuration list for PBXProject "Machine_Test_Sphinx_Solution" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0462FDA329B33D3600D485C0;
+			productRefGroup = 0462FDAD29B33D3600D485C0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0462FDAB29B33D3600D485C0 /* Machine_Test_Sphinx_Solution */,
+				0462FDC129B33D3800D485C0 /* Machine_Test_Sphinx_SolutionTests */,
+				0462FDCB29B33D3800D485C0 /* Machine_Test_Sphinx_SolutionUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0462FDAA29B33D3600D485C0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0462FDBC29B33D3700D485C0 /* LaunchScreen.storyboard in Resources */,
+				0462FDE829B341C000D485C0 /* UserCollectionViewCell.xib in Resources */,
+				0462FDB929B33D3700D485C0 /* Assets.xcassets in Resources */,
+				0462FDB729B33D3600D485C0 /* Main.storyboard in Resources */,
+				0462FDEC29B345F700D485C0 /* PopulationTableViewCell.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0462FDC029B33D3800D485C0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0462FDCA29B33D3800D485C0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		5BC5A17EF286336E66042F29 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Machine_Test_Sphinx_Solution/Pods-Machine_Test_Sphinx_Solution-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Machine_Test_Sphinx_Solution/Pods-Machine_Test_Sphinx_Solution-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Machine_Test_Sphinx_Solution/Pods-Machine_Test_Sphinx_Solution-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6C5EF0CDBA2E1FE59221C8E2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Machine_Test_Sphinx_Solution-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8BF2C0C2FA147D30C8AEB2FE /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Machine_Test_Sphinx_Solution-Machine_Test_Sphinx_SolutionUITests/Pods-Machine_Test_Sphinx_Solution-Machine_Test_Sphinx_SolutionUITests-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Machine_Test_Sphinx_Solution-Machine_Test_Sphinx_SolutionUITests/Pods-Machine_Test_Sphinx_Solution-Machine_Test_Sphinx_SolutionUITests-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Machine_Test_Sphinx_Solution-Machine_Test_Sphinx_SolutionUITests/Pods-Machine_Test_Sphinx_Solution-Machine_Test_Sphinx_SolutionUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AC555BD7E04A419D4C05692C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Machine_Test_Sphinx_SolutionTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E2AE4622998F3D54C8D080DC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Machine_Test_Sphinx_Solution-Machine_Test_Sphinx_SolutionUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0462FDA829B33D3600D485C0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0462FDEE29B3468E00D485C0 /* Population.swift in Sources */,
+				0462FDE229B3415900D485C0 /* SettingViewController.swift in Sources */,
+				0462FDB429B33D3600D485C0 /* HomeViewController.swift in Sources */,
+				0462FDE429B341A900D485C0 /* User.swift in Sources */,
+				0462FDB029B33D3600D485C0 /* AppDelegate.swift in Sources */,
+				0462FDE029B3413F00D485C0 /* ProfileViewController.swift in Sources */,
+				0462FDE729B341C000D485C0 /* UserCollectionViewCell.swift in Sources */,
+				0462FDEB29B345F700D485C0 /* PopulationTableViewCell.swift in Sources */,
+				0462FDB229B33D3600D485C0 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0462FDBE29B33D3800D485C0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0462FDC729B33D3800D485C0 /* Machine_Test_Sphinx_SolutionTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0462FDC829B33D3800D485C0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0462FDD129B33D3800D485C0 /* Machine_Test_Sphinx_SolutionUITests.swift in Sources */,
+				0462FDD329B33D3800D485C0 /* Machine_Test_Sphinx_SolutionUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0462FDC429B33D3800D485C0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0462FDAB29B33D3600D485C0 /* Machine_Test_Sphinx_Solution */;
+			targetProxy = 0462FDC329B33D3800D485C0 /* PBXContainerItemProxy */;
+		};
+		0462FDCE29B33D3800D485C0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0462FDAB29B33D3600D485C0 /* Machine_Test_Sphinx_Solution */;
+			targetProxy = 0462FDCD29B33D3800D485C0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		0462FDB529B33D3600D485C0 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0462FDB629B33D3600D485C0 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		0462FDBA29B33D3700D485C0 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0462FDBB29B33D3700D485C0 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0462FDD429B33D3800D485C0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		0462FDD529B33D3800D485C0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0462FDD729B33D3800D485C0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 10A6547B2921DEF974FB9127 /* Pods-Machine_Test_Sphinx_Solution.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Machine_Test_Sphinx_Solution/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Secomd.Machine-Test-Sphinx-Solution";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0462FDD829B33D3800D485C0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B2201AC1AB11DFCB73476CF6 /* Pods-Machine_Test_Sphinx_Solution.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Machine_Test_Sphinx_Solution/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Secomd.Machine-Test-Sphinx-Solution";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		0462FDDA29B33D3800D485C0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B4A7E3E0B888A3ED087126A8 /* Pods-Machine_Test_Sphinx_SolutionTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Secomd.Machine-Test-Sphinx-SolutionTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Machine_Test_Sphinx_Solution.app/Machine_Test_Sphinx_Solution";
+			};
+			name = Debug;
+		};
+		0462FDDB29B33D3800D485C0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 01E53FBA18953C851AC0FB70 /* Pods-Machine_Test_Sphinx_SolutionTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Secomd.Machine-Test-Sphinx-SolutionTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Machine_Test_Sphinx_Solution.app/Machine_Test_Sphinx_Solution";
+			};
+			name = Release;
+		};
+		0462FDDD29B33D3800D485C0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F15FB9522EE6FB2B5ACC17C1 /* Pods-Machine_Test_Sphinx_Solution-Machine_Test_Sphinx_SolutionUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Secomd.Machine-Test-Sphinx-SolutionUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Machine_Test_Sphinx_Solution;
+			};
+			name = Debug;
+		};
+		0462FDDE29B33D3800D485C0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6038C6047B8FB7AD1DEFA299 /* Pods-Machine_Test_Sphinx_Solution-Machine_Test_Sphinx_SolutionUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Secomd.Machine-Test-Sphinx-SolutionUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Machine_Test_Sphinx_Solution;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0462FDA729B33D3600D485C0 /* Build configuration list for PBXProject "Machine_Test_Sphinx_Solution" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0462FDD429B33D3800D485C0 /* Debug */,
+				0462FDD529B33D3800D485C0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0462FDD629B33D3800D485C0 /* Build configuration list for PBXNativeTarget "Machine_Test_Sphinx_Solution" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0462FDD729B33D3800D485C0 /* Debug */,
+				0462FDD829B33D3800D485C0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0462FDD929B33D3800D485C0 /* Build configuration list for PBXNativeTarget "Machine_Test_Sphinx_SolutionTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0462FDDA29B33D3800D485C0 /* Debug */,
+				0462FDDB29B33D3800D485C0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0462FDDC29B33D3800D485C0 /* Build configuration list for PBXNativeTarget "Machine_Test_Sphinx_SolutionUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0462FDDD29B33D3800D485C0 /* Debug */,
+				0462FDDE29B33D3800D485C0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0462FDA429B33D3600D485C0 /* Project object */;
+}
